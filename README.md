@@ -1,6 +1,6 @@
 # Final Project Demo
 ## Team Members
-Place your team member names here.
+Santino Iannone, Christine Dien, Zachary Nachod
 ### Contribution Statements
 Add individual contribution statements here.
 ## Project Proposal Abstract
