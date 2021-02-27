@@ -59,6 +59,9 @@ d3.json(mcpp).then(function(seattle) {
 		})
 		.on('mouseout', function() {
 			tooltip.classed('hidden', true);
+		})	
+		.on('click', function(d) {
+			console.log(d.properties.NEIGHBORHOOD);
 		});
 });
 
