@@ -61,7 +61,7 @@ d3.json(mcpp).then(function(seattle) {
 			tooltip.classed('hidden', true);
 		})	
 		.on('click', function(d) {
-			console.log(d.properties.NEIGHBORHOOD);
+			document.getElementById("name").innerHTML = d.properties.NEIGHBORHOOD;
 		});
 });
 
