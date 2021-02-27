@@ -1,5 +1,5 @@
 {
-  "name": "project-demo",
+  "name": "seattle-crime",
   "version": "1.0.0",
   "description": "Demo examples of vega-lite, d3.js, and Tableau visualizations",
   "main": "index.js",
