@@ -49,12 +49,12 @@ p { margin: 0 0 10px 0; }
 }
 
   .neighborhood {
-        fill: teal;
+        fill: #a9decc;
         stroke: #fff;
         stroke-width: 1px;
     }
     .neighborhood:hover {
-        fill: gold;
+        fill: #628c7e;
     }
     .hidden {
         display: none;
