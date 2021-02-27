@@ -3,11 +3,12 @@
     <head>
         <meta charset="utf-8">
         <title>CSE 412 Project Demo</title>
-        <link rel="stylesheet" href="https://cse412-21w.github.io/project-demo/style.7e64ab48.css">
+        <link rel="stylesheet" href="https://cse412-21w.github.io/seattle-crime/style.0ff1d659.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <!-- For using d3 -->
         <script src="https://d3js.org/d3.v5.min.js"></script>
         <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+		<script src="https://unpkg.com/topojson@3"></script>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
     </head>
 
@@ -17,26 +18,17 @@
       </section>
       <section>
         <h2>Final Project</h2>
-        <p>The final project will provide hands-on experience designing, implementing, 
-          and deploying interactive visualizations. Your project should address a concrete
-          visualization challenge and should propose a novel, creative solution. The final
-          deliverable will take the form of a visual analysis tool or an explanatory narrative,
-          deployed as an interactive web page. More info on the
-          <a href="https://courses.cs.washington.edu/courses/cse412/21wi/fp.html">course website</a>.
+        <p>Police departments across the United States have become an increasingly significant topic talked about in political, social, and educational environments. In the past year there has been public outcry, protest, and defense for law enforcement resulting from recent events related to police brutality. However, it hasn’t been just this past year where problems related to law enforcement have been prominent, it's been building up for decades. Our project intends to give insight into how to properly structure SPD resources based on Seattle crime data from 2008 to the present. Our visualizations attempt to show data and evidence to support a conclusion the reader may come up with in the most neutral form possible. We will focus on how crime in Seattle has evolved with regards to its location, type, and frequency. These parameters can inform how to more effectively reinvest resources to reflect the observed crime distribution.
         </p>
       </section>
-      <section>
-        <p><strong>This page is used mainly to demo how to embed visualizations. All visualizations below are
-          not perfect and need more iteration critiques before really publishing on a webpage.
-        </strong></p>
-      </section>
-
+      
 	  <div id="content">
-		<svg width="800px" height="1600">
+		<svg width="500px" height="800px">
 		  <g class="map"></g>
 		</svg>
 	  </div>
-
+	<p> The visualization above is a map of the city of Seattle divided into its respective neighborhoods. The map is interactive as you can manipulate crime type, timescale, and can zoom in/out of specific areas of interest. Notable trends to look for are crime density based on location and distribution of crime type. On the side of the map there is a slider that can change the time. Hovering over data points on the map will also show more detailed characteristics of interest of the reported crime. The data shown on the map is from the Seattle Police Department Records Management System (RMS).
+	</p>
       <div class="footer">
         <a href="https://courses.cs.washington.edu/courses/cse412/21wi/">CSE 412 Data Visualization</a>
         <a href="http://www.washington.edu">University of Washington</a>
@@ -44,7 +36,7 @@
 
       <!-- it is recommended to put js files before </body> -->
       <!-- or check load event fot addEventListener() if you want to put js in the <head> -->
-      <script src="https://cse412-21w.github.io/project-demo/map.53b67cf5.js"></script>
+      <script src="https://cse412-21w.github.io/seattle-crime/map.c8e2c09c.js"></script>
 
     </body>
 
