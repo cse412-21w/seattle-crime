@@ -35,7 +35,7 @@ d3.json(mcpp).then(function(seattle) {
 		.on('mouseout', function() {
 			tooltip.classed('hidden', true);
 		})	
-		.on('click', function(d) {
+		.on('mouseover', function(d) {
 			selected_mcpp = d.properties.NEIGHBORHOOD
 			document.getElementById("name").innerHTML = selected_mcpp;
 		});
