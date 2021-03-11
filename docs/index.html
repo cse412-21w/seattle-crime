@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>CSE 412 - Seattle Crime</title>
-        <link rel="stylesheet" href="https://cse412-21w.github.io/seattle-crime/style.d5651f9c.css">
+        <link rel="stylesheet" href="https://cse412-21w.github.io/seattle-crime/style.c38cac3f.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <!-- For using d3 -->
         <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -14,27 +14,43 @@
 
     <body>
       <section class="title">
-        <a href="/">CSE 412 - Seattle Crime</a>
+        <h1 align="center">Exploring Seattle Crime</h1>
       </section>
-      <section>
-        <h2>Final Project</h2>
+	  <hr>
+      <section style="padding-top: 20px">
         <p>Police departments across the United States have become an increasingly significant topic talked about in political, social, and educational environments. In the past year there has been public outcry, protest, and defense for law enforcement resulting from recent events related to police brutality. However, it hasn’t been just this past year where problems related to law enforcement have been prominent, it's been building up for decades. Our project intends to give insight into how to properly structure SPD resources based on Seattle crime data from 2008 to the present. Our visualizations attempt to show data and evidence to support a conclusion the reader may come up with in the most neutral form possible. We will focus on how crime in Seattle has evolved with regards to its location, type, and frequency. These parameters can inform how to more effectively reinvest resources to reflect the observed crime distribution.
         </p>
       </section>
       <h3 id="name" align="center"> SEATTLE </h3>
-	  <div id="content">
+	  <div id="content" align="center">
 		<svg width="500px" height="800px">
 		  <g class="map"></g>
 		</svg>
 	  </div>
+
 	<p> The visualization above is a map of the city of Seattle divided into its respective neighborhoods. The map is interactive as you can manipulate crime type, timescale, and can zoom in/out of specific areas of interest. Notable trends to look for are crime density based on location and distribution of crime type. On the side of the map there is a slider that can change the time. Hovering over data points on the map will also show more detailed characteristics of interest of the reported crime. The data shown on the map is from the Seattle Police Department Records Management System (RMS).
 	</p>
 	
-		<img src="https://cse412-21w.github.io/seattle-crime/SPD_crime_map_with_points.c3162f46.png" width="800px" height="600px">
+	<div class="tableauPlaceholder" id="viz1615437094065" style="position: relative"><noscript><a href="#"><img alt=" " src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;SeattleCrime_16154345749220&#47;Dashboard1&#47;1_rss.png" style="border: none"></a></noscript><object class="tableauViz" style="display:none;"><param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F"> <param name="embed_code_version" value="3"> <param name="site_root" value=""><param name="name" value="SeattleCrime_16154345749220&#47;Dashboard1"><param name="tabs" value="no"><param name="toolbar" value="yes"><param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;SeattleCrime_16154345749220&#47;Dashboard1&#47;1.png"> <param name="animate_transition" value="yes"><param name="display_static_image" value="yes"><param name="display_spinner" value="yes"><param name="display_overlay" value="yes"><param name="display_count" value="yes"><param name="language" value="en"></object></div>                <script>var divElement = document.getElementById('viz1615437094065');
+var vizElement = divElement.getElementsByTagName('object')[0];
 
+if (divElement.offsetWidth > 800) {
+  vizElement.style.width = '1366px';
+  vizElement.style.height = '795px';
+} else if (divElement.offsetWidth > 500) {
+  vizElement.style.width = '1366px';
+  vizElement.style.height = '795px';
+} else {
+  vizElement.style.width = '100%';
+  vizElement.style.height = '727px';
+}
+
+var scriptElement = document.createElement('script');
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 	
-	<p> To Add </p>
-		
+	<img src="https://cse412-21w.github.io/seattle-crime/heatmap.2a7f7b7f.png">
+	
 	<ul> 
 		<li> Year slider </li>
 		<li> Neighborhood statistics on click </li>
@@ -49,7 +65,7 @@
 
       <!-- it is recommended to put js files before </body> -->
       <!-- or check load event fot addEventListener() if you want to put js in the <head> -->
-      <script src="https://cse412-21w.github.io/seattle-crime/map.4ee7202a.js"></script>
+      <script src="https://cse412-21w.github.io/seattle-crime/map.2f4d7a7a.js"></script>
 
     </body>
 
