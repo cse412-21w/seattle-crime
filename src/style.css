@@ -17,7 +17,7 @@ a:hover { text-decoration: underline; color: #f4b014; }
   border: none;
   clear: right;
 }
-h1 { font-size: 24pt; margin:  5px 0 10px 0; line-height: 28px; }
+h1 { font-size: 32pt; margin:  5px 0 10px 0; line-height: 28px; padding-top:32px;}
 h2 { font-size: 14pt; margin: 30px 0 15px 0; letter-spacing: 0.01em; border-bottom: 1px solid #ccc;  line-height: 20px;}
 h3 { font-size: 13pt; }
 h4 { font-size: 12pt; }
@@ -30,9 +30,9 @@ p { margin: 0 0 10px 0; }
 }
  .title, .title h1, .title a {
   color: #492a7c;
-  font-size: 24pt;
+  font-size: 32pt;
   margin-bottom: 20px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
  .footer {
   border-top: 1px solid #ccc;

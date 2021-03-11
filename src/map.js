@@ -43,4 +43,3 @@ d3.json(mcpp).then(function(seattle) {
 
 
 
-
