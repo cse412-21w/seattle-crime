@@ -3,34 +3,43 @@
     <head>
         <meta charset="utf-8">
         <title>CSE 412 - Seattle Crime</title>
-        <link rel="stylesheet" href="https://cse412-21w.github.io/seattle-crime/style.3a9c6722.css">
+        <link rel="stylesheet" href="https://cse412-21w.github.io/seattle-crime/style.29a287b6.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <!-- For using d3 -->
         <script src="https://d3js.org/d3.v5.min.js"></script>
         <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 		<script src="https://unpkg.com/topojson@3"></script>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     </head>
 
     <body>
       <section class="title">
-        <h1 align="center">Exploring Seattle Crime</h1>
+        <h1 align="center"><span style="font-family:Special Elite">Exploring Seattle <span style="color: #1d8a7f">Crime</span></span></h1>
       </section>
-	  <h2 align="center"> Santino Iannone, Christine Dien, Zachary Nachod</h2>
-	  <hr>
-      <section style="padding-top: 20px">
-        <p>Police departments across the United States have become an increasingly significant topic talked about in political, social, and educational environments. In the past year there has been public outcry, protest, and defense for law enforcement resulting from recent events related to police brutality. However, it hasn’t been just this past year where problems related to law enforcement have been prominent, it's been building up for decades. Our project intends to give insight into how to properly structure SPD resources based on Seattle crime data from 2008 to the present. Our visualizations attempt to show data and evidence to support a conclusion the reader may come up with in the most neutral form possible. We will focus on how crime in Seattle has evolved with regards to its location, type, and frequency. These parameters can inform how to more effectively reinvest resources to reflect the observed crime distribution.
-        </p>
-      </section>
-      <h3 id="name" align="center"> SEATTLE </h3>
-	  <div id="content" align="center">
-		<svg width="500px" height="800px">
-		  <g class="map"></g>
-		</svg>
-	  </div>
+	<h2 align="center"> Santino Iannone, Christine Dien, Zachary Nachod</h2>
+	<hr>
+      <div class="container">
+      	<div class="column-left">
+      		<section style="padding-top: 20px">
+        		<p align="left">Police departments across the United States have become an increasingly significant topic talked about in political, social, and educational environments. In the past year there has been public outcry, protest, and defense for law enforcement resulting from recent events related to police brutality. However, it hasn’t been just this past year where problems related to law enforcement have been prominent, it's been building up for decades. Our project intends to give insight into how to properly structure SPD resources based on Seattle crime data from 2008 to the present. Our visualizations attempt to show data and evidence to support a conclusion the reader may come up with in the most neutral form possible. We will focus on how crime in Seattle has evolved with regards to its location, type, and frequency. These parameters can inform how to more effectively reinvest resources to reflect the observed crime distribution.
+<br>
+<br>
+The visualization above is a map of the city of Seattle divided into its respective neighborhoods. The map is interactive and can be used to find out where neighborhoods are located to give context to the data below. The data shown on the map is from the Seattle Police Department Records Management System (RMS).
+        		</p>
+      		</section>
+      	</div>
+      	<div class="column-right">
+      	<h3 class="neighborhoodname" id="name" align="center"> SEATTLE </h3>
+	  	<div id="content" align="center">
+			<svg width="500px" height="800px">
+		  	<g class="map"></g>
+			</svg>
+	  	</div>
+      	</div>
+      </div>
 
-	<p> The visualization above is a map of the city of Seattle divided into its respective neighborhoods. The map is interactive and can be used to find out where neighborhoods are located to give context to the data below. The data shown on the map is from the Seattle Police Department Records Management System (RMS).
-	</p>
+      <hr>
 	
 	<div align="center">
 		<img src="https://cse412-21w.github.io/seattle-crime/neighborhood_by_crime_percent.8b1a9c60.png">
@@ -83,7 +92,7 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
       <!-- it is recommended to put js files before </body> -->
       <!-- or check load event fot addEventListener() if you want to put js in the <head> -->
-      <script src="https://cse412-21w.github.io/seattle-crime/map.9edebbe1.js"></script>
+      <script src="https://cse412-21w.github.io/seattle-crime/map.8ec07407.js"></script>
 
     </body>
 
