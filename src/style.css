@@ -4,12 +4,12 @@
   padding: 0;
   max-width: 1200px;
   font-family: "Avenir", "Avenir Next", Helvetica Neue, Arial;
-  font-size: 0.95em;
+  font-size: 1em;
 }
  a, a:visited { text-decoration: none; color: #7533f4; }
-a:hover { text-decoration: underline; color: #f4b014; }
- h1, h2, h3, h4, h5 {
-  color: #492a7c;
+ a:hover { text-decoration: underline; color: #f4b014; }
+ h2, h3, h4, h5 {
+  color: #262525;
   background-color: inherit;
   font-weight: normal;
   padding: 0 0 5px 0;
@@ -17,22 +17,30 @@ a:hover { text-decoration: underline; color: #f4b014; }
   border: none;
   clear: right;
 }
+
 h1 { font-size: 32pt; margin:  5px 0 10px 0; line-height: 28px; padding-top:32px;}
-h2 { font-size: 14pt; margin: 30px 0 15px 0; letter-spacing: 0.01em; line-height: 20px;}
-h3 { font-size: 13pt; }
+h2 { font-size: 20pt; margin: 60px 0 520px 0; letter-spacing: 0.01em; line-height: 20px;}
+h3 { font-size: 15pt; }
 h4 { font-size: 12pt; }
 h5 { font-size: 11pt; }
-p { margin: 0 0 10px 0; }
+
+p { margin: 0 0 10px 0; font-size: 15pt}
+
+ .neighborhoodname {
+ font-weight: bold;
+ color: #628c7e;
+}
  .content {
   margin: 0;
   padding: 15px 20px;
   background-color: #ffffff;
 }
  .title, .title h1, .title a {
-  color: #492a7c;
-  font-size: 32pt;
+  color: #000000;
+  font-size: 60pt;
+  font-family: 'Special Elite', cursive;
   margin-bottom: 20px;
-  margin-top: 15px;
+  margin-top: 520px;
 }
  .footer {
   border-top: 1px solid #ccc;
@@ -97,3 +105,19 @@ div.tooltip {
 img {
 	margin: 60px;
 }
+
+.container {
+  display: flex;
+  align-items:center;
+{
+
+
+.column-left, 
+.column-right {
+  width: 50%;
+}
+
+
+
+
+
