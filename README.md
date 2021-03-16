@@ -14,7 +14,7 @@ Heat Maps - Santino Iannone
 
 Most Offense Type Table - Christine Dien
 
-Seattle Neighborhoods Colored by Crime Percentage - Santino Iannone
+Seattle Neighborhoods Colored by Crime Percentage - Christine Dien
 
 Visualization Texts - Santino Iannone, Christine Dien, Zachary Nachod
 
