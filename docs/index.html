@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>CSE 412 - Seattle Crime</title>
-        <link rel="stylesheet" href="https://cse412-21w.github.io/seattle-crime/style.e9d7b6c6.css">
+        <link rel="stylesheet" href="https://cse412-21w.github.io/project-demo/style.db53cfbe.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <!-- For using d3 -->
         <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -50,7 +50,7 @@
       <div class="container">
 	
 	<div class="column">
-		<img src="https://cse412-21w.github.io/seattle-crime/neighborhood_by_crime_percent.8b1a9c60.png">
+		<img src="https://cse412-21w.github.io/project-demo/neighborhood_by_crime_percent.8b1a9c60.png">
 	</div>
 	
 	<div class="column">
@@ -69,7 +69,7 @@ i
 
 	  <div class="column">
 
-		<img src="https://cse412-21w.github.io/seattle-crime/crime_location.49230522.png">
+		<img src="https://cse412-21w.github.io/project-demo/crime_location.49230522.png">
 	  </div>
 
 	  <div class="column" style="width:600px">
@@ -95,7 +95,7 @@ i
 
       <div class="container">
 	<div class="column">
-		<img src="https://cse412-21w.github.io/seattle-crime/heatmap.8a40e846.png">
+		<img src="https://cse412-21w.github.io/project-demo/heatmap.8a40e846.png">
 	</div>	
 	<div class="column">
 		<p> The heatmap to the left visualizes how the offense count for each neighborhood compares to the mean of all neighborhoods for different types of crime.
@@ -104,7 +104,7 @@ i
 		<br> <br>
 	Additionally we can deduct that <span style="font-weight:bold; color:#497f85;">Downtown / Commercial</span> has higher than average levels of <span style="font-style:italic; color:#497f85;">Gambling Offenses.</span>
 		<br> <br>
-	To explore these trends further, use the following interactive visualization to filter by Offense Type and see the offense counts per neighborhood.
+	To explore these trends further, use the following interactive visualizations to filter by Offense Type and see the offense counts per neighborhood. Or you can filter by neighborhood and see the offense counts per crime type.
 		</p>
 	
 	</div>
@@ -131,14 +131,20 @@ if (divElement.offsetWidth > 800) {
 var scriptElement = document.createElement('script');
 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
-	
+	<div class="tableauPlaceholder" id="viz1615864807452" style="position: relative"><noscript><a href="#"><img alt=" " src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;SeattleCrime3&#47;Sheet1&#47;1_rss.png" style="border: none"></a></noscript><object class="tableauViz" style="display:none;"><param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F"> <param name="embed_code_version" value="3"> <param name="site_root" value=""><param name="name" value="SeattleCrime3&#47;Sheet1"><param name="tabs" value="no"><param name="toolbar" value="yes"><param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;SeattleCrime3&#47;Sheet1&#47;1.png"> <param name="animate_transition" value="yes"><param name="display_static_image" value="yes"><param name="display_spinner" value="yes"><param name="display_overlay" value="yes"><param name="display_count" value="yes"><param name="language" value="en"><param name="filter" value="publish=yes"></object></div>                <script>var divElement = document.getElementById('viz1615864807452');
+var vizElement = divElement.getElementsByTagName('object')[0];
+vizElement.style.width = '100%';
+vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
+var scriptElement = document.createElement('script');
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
 <hr>
 <h4> How does each year from 2008 to 2020 compare to each other per offense type?</h4>
 
       <div class="container">
 	<div class="column">
-		<img src="https://cse412-21w.github.io/seattle-crime/crime_year_count.695c2379.png">
+		<img src="https://cse412-21w.github.io/project-demo/crime_year_count.695c2379.png">
 	</div>	
 	<div class="column">
 		<p> The heatmap to the left visualizes how the offense count for each year from 2008 to 2020 compares to the annual average across all years for each crime type.
@@ -182,34 +188,20 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
 <section>
 
-<h4> 2021 Seattle Police Department Proposed Budget </h4>
+<h4> 2020 Seattle Police Department Adopted Budget </h4>
 
-<p> The following table can be found <a href="https://www.seattle.gov/city-budget/2021-proposed-budget#/spd">here</a>. </p>
-	<div>
-	<table data-v-1afd7a9e="" class="table table-striped"><thead data-v-1afd7a9e=""><th data-v-1afd7a9e=""></th><th data-v-1afd7a9e="">
-                 2019 actuals
-            </th><th data-v-1afd7a9e="">
-                 2020 adopted
-            </th><th data-v-1afd7a9e="">
-                 2021 proposed
-            </th></thead><tr data-v-1afd7a9e=""><th data-v-1afd7a9e="">Expenditures:</th><td data-v-1afd7a9e="">
-                $398,769,531
-            </td><td data-v-1afd7a9e="">
-                $409,111,750
-            </td><td data-v-1afd7a9e="">
-                $359,751,039
-            </td></tr><tbody data-v-1afd7a9e=""><tr class="budget-row active"><td><button> - </button><strong></strong></td><td><span>$398,769,531</span></td><td><span>$409,111,750</span></td><td><span>$359,751,039</span></td></tr><tr class="budget-row-child"><td>Administrative Operations</td><td><span>$43,813,705</span></td><td><span>$39,090,706</span></td><td><span>$5,234,029</span></td></tr><tr class="budget-row-child"><td>Chief of Police</td><td><span>$10,967,421</span></td><td><span>$7,157,843</span></td><td><span>$7,630,472</span></td></tr><tr class="budget-row-child"><td>Emergency Management Operations</td><td><span>$0</span></td><td><span>$3,110,533</span></td><td><span>$0</span></td></tr><tr class="budget-row-child"><td>Collaborative Policing</td><td><span>$0</span></td><td><span>$13,131,820</span></td><td><span>$13,040,845</span></td></tr><tr class="budget-row-child"><td>Compliance &amp; Prof. Standards</td><td><span>$3,515,592</span></td><td><span>$4,610,702</span></td><td><span>$4,648,249</span></td></tr><tr class="budget-row-child"><td>Coordinated Criminal Investigations</td><td><span>$0</span></td><td><span>$6,112,668</span></td><td><span>$6,178,985</span></td></tr><tr class="budget-row-child"><td>Criminal Investigations</td><td><span>$13,892,039</span></td><td><span>$23,419,742</span></td><td><span>$22,697,564</span></td></tr><tr class="budget-row-child"><td>Narcotics Investigations</td><td><span>$0</span></td><td><span>$6,606,225</span></td><td><span>$6,671,505</span></td></tr><tr class="budget-row-child"><td>Special Victims</td><td><span>$0</span></td><td><span>$9,157,213</span></td><td><span>$8,329,748</span></td></tr><tr class="budget-row-child"><td>Violent Crimes</td><td><span>$0</span></td><td><span>$14,399,813</span></td><td><span>$12,876,049</span></td></tr><tr class="budget-row-child"><td>East Precinct</td><td><span>$27,812,285</span></td><td><span>$0</span></td><td><span>$22,762,019</span></td></tr><tr class="budget-row-child"><td>Citywide Indirect Costs</td><td><span>$0</span></td><td><span>$23,679,789</span></td><td><span>$37,336,051</span></td></tr><tr class="budget-row-child"><td>Departmental Indirect Costs</td><td><span>$60,612,481</span></td><td><span>$30,950,460</span></td><td><span>$33,907,270</span></td></tr><tr class="budget-row-child"><td>Divisional Indirect Costs</td><td><span>$17,147,595</span></td><td><span>$15,395,858</span></td><td><span>$18,738,939</span></td></tr><tr class="budget-row-child"><td>North Precinct</td><td><span>$38,058,605</span></td><td><span>$0</span></td><td><span>$32,419,572</span></td></tr><tr class="budget-row-child"><td>Police Accountability</td><td><span>$4,205,537</span></td><td><span>$4,693,942</span></td><td><span>$4,824,034</span></td></tr><tr class="budget-row-child"><td>Patrol Operations</td><td><span>$7,933,263</span></td><td><span>$10,937,642</span></td><td><span>$10,083,183</span></td></tr><tr class="budget-row-child"><td>School Zone Camera Program</td><td><span>$0</span></td><td><span>$2,131,785</span></td><td><span>$2,131,090</span></td></tr><tr class="budget-row-child"><td>South Precinct</td><td><span>$21,209,006</span></td><td><span>$0</span></td><td><span>$20,983,579</span></td></tr><tr class="budget-row-child"><td>Southwest Precinct</td><td><span>$18,343,576</span></td><td><span>$0</span></td><td><span>$17,621,225</span></td></tr><tr class="budget-row-child"><td>Special Operations</td><td><span>$60,722,813</span></td><td><span>$57,635,958</span></td><td><span>$43,180,084</span></td></tr><tr class="budget-row-child"><td>West Precinct</td><td><span>$35,943,748</span></td><td><span>$0</span></td><td><span>$28,456,547</span></td></tr><tr class="budget-row-child"><td>Narcotics Investigations</td><td><span>$6,070,504</span></td><td><span>$0</span></td><td><span>$0</span></td></tr><tr class="budget-row-child"><td>Special Fund Projects</td><td><span>$766,419</span></td><td><span>$0</span></td><td><span>$0</span></td></tr><tr class="budget-row-child"><td>Special Investigations</td><td><span>$9,934,310</span></td><td><span>$0</span></td><td><span>$0</span></td></tr><tr class="budget-row-child"><td>Special Victims</td><td><span>$8,021,775</span></td><td><span>$0</span></td><td><span>$0</span></td></tr><tr class="budget-row-child"><td>Violent Crimes</td><td><span>$9,798,857</span></td><td><span>$0</span></td><td><span>$0</span></td></tr><tr class="budget-row-child"><td>East Precinct</td><td><span>$0</span></td><td><span>$25,378,458</span></td><td><span>$0</span></td></tr><tr class="budget-row-child"><td>North Precinct</td><td><span>$0</span></td><td><span>$36,378,872</span></td><td><span>$0</span></td></tr><tr class="budget-row-child"><td>South Precinct</td><td><span>$0</span></td><td><span>$23,730,239</span></td><td><span>$0</span></td></tr><tr class="budget-row-child"><td>Southwest Precinct</td><td><span>$0</span></td><td><span>$19,823,685</span></td><td><span>$0</span></td></tr><tr class="budget-row-child"><td>West Precinct</td><td><span>$0</span></td><td><span>$31,577,797</span></td><td><span>$0</span></td></tr><tr class="budget-row-total"><td>Subtotal</td><td><span>$398,769,531</span></td><td><span>$409,111,750</span></td><td><span>$359,751,039</span></td></tr></tbody><tr data-v-1afd7a9e="" class="ftes"><th data-v-1afd7a9e="">FTEs:</th><td data-v-1afd7a9e="">
-                2172.35
-            </td><td data-v-1afd7a9e="">
-                2187.35
-            </td><td data-v-1afd7a9e="">
-                1853.05
-            </td></tr></table>
-
+      <div class="container">
+	<div class="column">
+		<img src="https://cse412-21w.github.io/project-demo/budget.4a92be45.png">
+	</div>	
+	<div class="column">
+		<p> The bar plot to the left shows us the breakdown of the 2021 SPD budget, based on the different departments.
+		<br> <br>
+	We can see that spending on <span style="font-weight:bold; color:#703759;">Precincts</span> is the highest compared to other departments. We can also see that spending on <span style="font-weight:bold; color:#703759;">Police Accountability</span> is quite low.
+		</p>
+	
 	</div>
-    </section>
-
-
+</div>
 
 
 	<div class="footer">
@@ -219,8 +211,8 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
       <!-- it is recommended to put js files before </body> -->
       <!-- or check load event fot addEventListener() if you want to put js in the <head> -->
-      <script src="https://cse412-21w.github.io/seattle-crime/map.8ec07407.js"></script>
+      <script src="https://cse412-21w.github.io/project-demo/map.9edebbe1.js"></script>
 
-    </body>
+    </section></body>
 
 </html>
