@@ -2,9 +2,30 @@
 ## Team Members
 Santino Iannone, Christine Dien, Zachary Nachod
 ### Contribution Statements
-Add individual contribution statements here.
+Interactive Seattle Neightborhood Name Map - Santino Iannone
+
+Website Formatting - Christine Dien
+
+Website Design - Santino Iannone, Christine Dien, Zachary Nachod
+
+Tabeau Interactive Bar Charts and Line Charts - Zachary Nachod
+
+Heat Maps - Santino Iannone
+
+Most Offense Type Table - Christine Dien
+
+Seattle Neighborhoods Colored by Crime Percentage - Christine Dien
+
+Visualization Texts - Santino Iannone, Christine Dien, Zachary Nachod
+
+Conclusion Text - Santino Iannone, Christine Dien, Zachary Nachod
+
+Introduction - Santino Iannone, Christine Dien, Zachary Nachod
+
+Seattle Police Department Adopted Budget Visualiztion - Santino Iannone
+
 ## Project Proposal Abstract
-This is the space for you to add a description for your project.
+In the light of recent events involving the Seattle Police Department (SPD), interest in budgetary restructuring has grown significantly. Our project intends to give insight into how to properly structure SPD resources based on Seattle crime data from 2008 to the present. We will focus on how crime in Seattle has evolved with regards to its location, type, and frequency. These parameters can inform how to more effectively reinvest resources to reflect the observed crime distribution.  We plan to use location data on an interactive map of Seattle so users can explore geographical and temporal trends. The interactive elements will allow the users to filter certain data elements such as crime category, modify the shown timescale, and focus on specific sublocations. In addition to this interactive map, we will provide guiding visualizations that highlight key relationships that help to answer our overarching question. We will also include annotations that emphasize important patterns from the data. 
 
 ## Getting Started
 
