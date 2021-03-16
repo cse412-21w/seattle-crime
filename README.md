@@ -3,14 +3,23 @@
 Santino Iannone, Christine Dien, Zachary Nachod
 ### Contribution Statements
 Interactive Seattle Neightborhood Name Map - Santino Iannone
+
 Website Formatting - Christine Dien
+
 Website Design - Everyone
+
 Tabeau Interactive Bar Charts and Line Charts - Zachary Nachod
+
 Heat Maps - Santino Iannone
+
 Visualization Texts - Santino Iannone, Christine Dien, Zachary Nachod
+
 Conclusion Text - Santino Iannone, Christine Dien, Zachary Nachod
+
 Introduction - Santino Iannone, Christine Dien, Zachary Nachod
+
 Seattle Police Department Adopted Budget Visualiztion - Santino Iannone
+
 ## Project Proposal Abstract
 This is the space for you to add a description for your project.
 
