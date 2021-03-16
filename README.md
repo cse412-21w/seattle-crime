@@ -12,6 +12,10 @@ Tabeau Interactive Bar Charts and Line Charts - Zachary Nachod
 
 Heat Maps - Santino Iannone
 
+Most Offense Type Table - Christine Dien
+
+Seattle Neighborhoods Colored by Crime Percentage - Santino Iannone
+
 Visualization Texts - Santino Iannone, Christine Dien, Zachary Nachod
 
 Conclusion Text - Santino Iannone, Christine Dien, Zachary Nachod
