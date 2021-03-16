@@ -15,43 +15,134 @@
 
     <body>
       <section class="title">
-        <h1 align="center"><span style="font-family:Special Elite">Exploring Seattle <span style="color: #1d8a7f">Crime</span></span></h1>
+        <h1 align="center"><span style="font-family:Special Elite">Exploring Seattle <span style="color: teal">Crime</span></span></h1>
       </section>
 	<h2 align="center"> Santino Iannone, Christine Dien, Zachary Nachod</h2>
 	<hr>
+	<h4 >  Locate a Seattle Neighborhood </h4>
       <div class="container">
-      	<div class="column-left">
+	
+      	<div class="column">
       		<section style="padding-top: 20px">
-        		<p align="left">Police departments across the United States have become an increasingly significant topic talked about in political, social, and educational environments. In the past year there has been public outcry, protest, and defense for law enforcement resulting from recent events related to police brutality. However, it hasn’t been just this past year where problems related to law enforcement have been prominent, it's been building up for decades. Our project intends to give insight into how to properly structure SPD resources based on Seattle crime data from 2008 to the present. Our visualizations attempt to show data and evidence to support a conclusion the reader may come up with in the most neutral form possible. We will focus on how crime in Seattle has evolved with regards to its location, type, and frequency. These parameters can inform how to more effectively reinvest resources to reflect the observed crime distribution.
-</br>
-</br>
-The visualization above is a map of the city of Seattle divided into its respective neighborhoods. The map is interactive and can be used to find out where neighborhoods are located to give context to the data below. The data shown on the map is from the Seattle Police Department Records Management System (RMS).
+        		<p>Police departments across the United States have become an increasingly significant topic talked about in political, social, and educational environments. In the past year there has been public outcry, protest, and defense for law enforcement resulting from recent events related to police brutality. 
+		</br> </br>
+		However, it hasn’t been just this past year where problems related to law enforcement have been prominent, it's been building up for decades. Our project intends to give insight into how to properly structure SPD resources based on Seattle crime data from 2008 to the present. Our visualizations attempt to show data and evidence to support a conclusion the reader may come up with in the most neutral form possible. We will focus on how crime in Seattle has evolved with regards to its location, type, and frequency. These parameters can inform how to more effectively reinvest resources to reflect the observed crime distribution.
+		</br> </br>
+		The visualization to the right is a map of the city of Seattle divided into its respective neighborhoods. The map is interactive and can be used to find out where neighborhoods are located to give context to the data below. The data shown on the map is from the Seattle Police Department Records Management System (RMS).
         		</p>
       		</section>
       	</div>
-      	<div class="column-right">
+      	<div class="column">
       	<h3 class="neighborhoodname" id="name" align="center"> SEATTLE </h3>
 	  	<div id="content" align="center">
 			<svg width="500px" height="800px">
 		  	<g class="map"></g>
 			</svg>
 	  	</div>
+
       	</div>
       </div>
-
+      </br> </br>
       <hr>
+      
+	<h4 > Which neighborhood has the highest percentage of total crime? </h4>
+
+      <div class="container">
 	
-	<div align="center">
+	<div class="column">
 		<img src="../static/neighborhood_by_crime_percent.png">
 	</div>
 	
-	<div align="center">
-		<img src="../static/heatmap.png">
-	</div>
-	
-	
-	<div class='tableauPlaceholder' id='viz1615437094065' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;SeattleCrime_16154345749220&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SeattleCrime_16154345749220&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;SeattleCrime_16154345749220&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1615437094065');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+	<div class="column">
 		
+		<p> On the map to the left, each neighborhood in Seattle is colored according to the percentage of total Seattle crime that it comprises. The color bar on the right describes what each color corresponds to. 
+		</br> </br>
+		We can see that the <span style="font-weight:bold; color:#497f85;">Downtown / Commercial</span> beat has the highest percentage of total crime, with <span style="font-style:italic; color:#497f85;">8%</span> of all Seattle Crime.
+		</p>
+	</div>
+      </div>
+
+	<hr>
+<h4 > Where does each type of offense occur the most?</h4>
+i
+	<div class="container">
+
+	  <div class="column">
+
+		<img src="../static/crime_location.png">
+	  </div>
+
+	  <div class="column" style="width:600px">
+		<p>
+		This table details where each type of offense is occurs the most. This information can help inform how and where to reinvest SPD resources to better suit the needs of each neighborhood. 
+		</br> </br>
+		Some takeaways are: </p>
+		
+		<li> <span style="font-style:italic; color:#a31f61">Fraud</span> occurs the most in the <span style="font-weight:bold; color:#a31f61;">Northgate</span>. </li>
+		
+		<li> <span style="font-style:italic; color:#ba8d23;">Family Offenses, Nonviolent</span> most in <span style="font-weight:bold; color:#ba8d23;">Sandpoint</span>  </li>
+	
+		<li>We see <span style="font-style:italic; color:#573e6b;">Bad Checks</span> offenses the most in <span style="font-weight:bold; color:#573e6b;">Capitol Hill</span> </li>  
+		
+		</br> 
+		<p>These nonviolent offenses may not require SPD to arrive in a way or use items that may escalate these situations.</p>
+
+	  </div>
+	</div>
+
+<hr>
+<h4 > How do different Seattle neighborhoods compare to the rest for each offense type?</h4>
+
+      <div class="container">
+	<div class="column">
+		<img src="../static/heatmap.png">
+	</div>	
+	<div class="column">
+		<p> The heatmap to the left visualizes how the offense count for each neighborhood compares to the mean of all neighborhoods for different types of crime.
+		</br> </br>
+	For example, compared to other neighborhoods, we see that <span style="font-weight:bold; color:#573e6b;">Capitol Hill </span> has high levels of <span style="font-style:italic; color:#573e6b;">Bribery.</span> 
+		</br> </br>
+	Additionally we can deduct that <span style="font-weight:bold; color:#497f85;">Downtown / Commercial</span> has higher than average levels of <span style="font-style:italic; color:#497f85;">Gambling Offenses.</span>
+		</br> </br>
+	To explore these trends further, use the following interactive visualization to filter by Offense Type and see the offense counts per neighborhood.
+		</p>
+	
+	</div>
+
+      </div>	
+
+<hr>
+
+
+	<div class='tableauPlaceholder' id='viz1615437094065' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;SeattleCrime_16154345749220&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SeattleCrime_16154345749220&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;SeattleCrime_16154345749220&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1615437094065');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+	
+
+<hr>
+<h4 > How does each year from 2008 to 2020 compare to each other per offense type?</h4>
+
+      <div class="container">
+	<div class="column">
+		<img src="../static/crime_year_count.png">
+	</div>	
+	<div class="column">
+		<p> The heatmap to the left visualizes how the offense count for each year from 2008 to 2020 compares to the annual average across all years for each crime type.
+		</br> </br>
+	For example, we see that the year <span style="font-weight:bold; color:#703759;">2020</span> has especially high levels of <span style="font-style:italic; color:#703759;">Fraud Offenses</span> compared to other years. This may be reflective of the worldwide COVID-19 pandemic. Interestingly, we see that 2020 had less <span style="font-style:italic; color:#703759;">Family Offenses, Nonviolent</span> compared to the mean offense count for this type of crime across all years.
+		</br> </br>
+	We can also see that that <span style="font-weight:bold; color:#5a8c68;">2008</span> has higher than average levels of <span style="font-style:italic; color:#5a8c68;">Embezzlement</span> and <span style="font-style:italic; color:#5a8c68;">Gambling Offenses.</span> These trends may reflect the 2008 Financial Crisis.
+		</br> </br>
+	To explore more trends over time, use the following interactive visualization to filter by Offense Type to see how offense counts change over time.
+		</p>
+	
+	</div>
+
+      </div>	
+
+<hr>
+
+
+
+	
 	<div class='tableauPlaceholder' id='viz1615445932623' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;SeattleCrime2_16154459207410&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SeattleCrime2_16154459207410&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;SeattleCrime2_16154459207410&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1615445932623');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
       <div class="footer">
         <a href="https://courses.cs.washington.edu/courses/cse412/21wi/">CSE 412 Data Visualization</a>

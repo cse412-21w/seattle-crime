@@ -21,7 +21,7 @@
 h1 { font-size: 32pt; margin:  5px 0 10px 0; line-height: 28px; padding-top:32px;}
 h2 { font-size: 20pt; margin: 60px 0 520px 0; letter-spacing: 0.01em; line-height: 20px;}
 h3 { font-size: 15pt; }
-h4 { font-size: 12pt; }
+h4 { font-size: 25pt; margin: 30px 0 0 0;}
 h5 { font-size: 11pt; }
 
 p { margin: 0 0 10px 0; font-size: 15pt}
@@ -56,7 +56,7 @@ p { margin: 0 0 10px 0; font-size: 15pt}
   color: #ce3333;
 }
 
-
+li{font-size: 13pt;}
 p.name {
 	background-color: teal;
 }
@@ -103,21 +103,18 @@ div.tooltip {
 }
 
 img {
-	margin: 60px;
+	width: 700px;
+	margin: 40px;
 }
 
 .container {
   display: flex;
-  align-items:center;
+  align-items: center;
 {
 
 
-.column-left, 
-.column-right {
+.column {
   width: 50%;
-}
-
-
-
+} 
 
 
