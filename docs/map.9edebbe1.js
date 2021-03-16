@@ -118,9 +118,9 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"gkjK":[function(require,module,exports) {
-module.exports = "https://cse412-21w.github.io/project-demo/Micro_Community_Policing_Plans.0c806b0a.geojson";
+module.exports = "https://cse412-21w.github.io/seattle-crime/Micro_Community_Policing_Plans.0c806b0a.geojson";
 },{}],"amLZ":[function(require,module,exports) {
-module.exports = "https://cse412-21w.github.io/project-demo/SPD_offense_coord_w_year_0.02792005.csv";
+module.exports = "https://cse412-21w.github.io/seattle-crime/SPD_offense_coord_w_year_0.02792005.csv";
 },{}],"quTw":[function(require,module,exports) {
 "use strict";
 
@@ -158,4 +158,4 @@ d3.json(_Micro_Community_Policing_Plans.default).then(function (seattle) {
   });
 });
 },{"../static/Micro_Community_Policing_Plans.geojson":"gkjK","../static/SPD_offense_coord_w_year_0.csv":"amLZ"}]},{},["quTw"], null)
-//# sourceMappingURL=https://cse412-21w.github.io/project-demo/map.9edebbe1.js.map
+//# sourceMappingURL=https://cse412-21w.github.io/seattle-crime/map.9edebbe1.js.map
