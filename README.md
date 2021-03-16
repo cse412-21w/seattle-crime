@@ -1,8 +1,9 @@
 # Seattle Crime
 ## Team Members
 Santino Iannone, Christine Dien, Zachary Nachod
-##
-Website URL: https://cse412-21w.github.io/seattle-crime/
+## Website URL
+
+https://cse412-21w.github.io/seattle-crime/
 
 ### Contribution Statements
 Interactive Seattle Neightborhood Name Map - Santino Iannone
