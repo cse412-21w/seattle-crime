@@ -1,12 +1,12 @@
 {
   "name": "seattle-crime",
   "version": "1.0.0",
-  "description": "Demo examples of vega-lite, d3.js, and Tableau visualizations",
+  "description": "Seattle Crime CSE 412 Intro to Data Visualization",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --no-minify --public-url https://cse412-21w.github.io/seattle-crime & RD /S /Q .\\docs & ren .\\dist docs"
+    "build": "parcel build src/index.html --no-minify --public-url https://cse412-21w.github.io/seattle-crime; rm -rf docs; mv dist docs;"
   },
   "repository": {
     "type": "git",
