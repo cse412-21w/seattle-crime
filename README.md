@@ -6,7 +6,7 @@ Interactive Seattle Neightborhood Name Map - Santino Iannone
 
 Website Formatting - Christine Dien
 
-Website Design - Everyone
+Website Design - Santino Iannone, Christine Dien, Zachary Nachod
 
 Tabeau Interactive Bar Charts and Line Charts - Zachary Nachod
 
